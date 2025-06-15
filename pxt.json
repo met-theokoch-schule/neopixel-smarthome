@@ -1,0 +1,27 @@
+{
+    "name": "neopixel-smarthome",
+    "version": "0.1.0",
+    "description": "Remix of AdaFruit NeoPixel driver (no show in Blocks)",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "ws2812b": "github:microsoft/pxt-ws2812b#v0.1.1",
+        "v3": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "7.0.3",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "tsprj"
+}
